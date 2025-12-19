@@ -1,0 +1,4622 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "03844d28-c06b-4e9f-99d1-03eed04cafea")
+	(paper "B")
+	(lib_symbols
+		(symbol "9button-9neopixel-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*thruhole{space}resistor*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Resistor_SchlibLafe.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.524 0) (xy -1.27 1.27) (xy -0.762 -1.27) (xy -0.254 1.27) (xy 0.254 -1.27)
+						(xy 0.762 1.27) (xy 1.27 -1.27) (xy 1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0) (xy 1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SchlibLafe:root_0_TSW-104-07-G-S_SchlibLafe.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "<a href=\"https://pricing.snapeda.com/parts/TSW-104-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SAMTEC_TSW-104-07-G-S*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_TSW-104-07-G-S_SchlibLafe.SchLib_1_0"
+				(rectangle
+					(start 5.08 7.62)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*adafruit-1559-neopixel-flora*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib_1_0"
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 7.62)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "No Description Available"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SW_TL59AF100Q_EWI*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_TL59AF100Q_SchlibLafe.SchLib_1_0"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.175)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 109.22 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "000b0989-e6ad-4405-b7de-84cd18848978")
+	)
+	(junction
+		(at 233.68 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03760594-66c1-4026-97b6-34c397a49531")
+	)
+	(junction
+		(at 185.42 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d45f5eb-0c56-4d65-98cb-4af8c9ca4a23")
+	)
+	(junction
+		(at 83.82 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f17ea0-75fc-4649-a95c-6c0eec11a45e")
+	)
+	(junction
+		(at 109.22 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ee4a206-6f06-445e-89a1-2b6b54550729")
+	)
+	(junction
+		(at 231.14 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bfc0e2e-a05a-42bc-8101-6ab6149aa628")
+	)
+	(junction
+		(at 281.94 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39a8738c-0eba-4110-bdc0-ef400307e356")
+	)
+	(junction
+		(at 281.94 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a8fb2c3-fc98-4184-a7f5-6d47b4077f08")
+	)
+	(junction
+		(at 134.62 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45ffd675-7733-4889-8492-1c40f486fd2b")
+	)
+	(junction
+		(at 208.28 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e6a7c60-efc6-45df-b677-56ed5cefc818")
+	)
+	(junction
+		(at 256.54 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fdb2105-f37c-484a-8959-2f31ec0e3875")
+	)
+	(junction
+		(at 281.94 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5238c564-1a2d-4e1a-ae7b-c9f420721750")
+	)
+	(junction
+		(at 134.62 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a0b967-9452-4d40-a6a7-f4e5165470b3")
+	)
+	(junction
+		(at 185.42 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f22c01a-3bd3-444c-8fa3-a7bb1453df64")
+	)
+	(junction
+		(at 259.08 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64307f96-1500-427b-b8a8-0c2272d131a4")
+	)
+	(junction
+		(at 109.22 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c67c219-7a5e-4bda-b9c8-41ef8c924415")
+	)
+	(junction
+		(at 231.14 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96c423d8-decf-41a2-afc8-bfb6f72d41a5")
+	)
+	(junction
+		(at 182.88 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eb66ebd-c36c-4868-81e5-41299a9723cd")
+	)
+	(junction
+		(at 134.62 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1ea2ce7-3107-4635-b0d8-713d947322e9")
+	)
+	(junction
+		(at 76.2 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c3ee00-3a9b-4688-b2de-0840b68567e1")
+	)
+	(junction
+		(at 160.02 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a661fc51-b109-4f2d-84f0-694c1e84bffb")
+	)
+	(junction
+		(at 294.64 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c04423ed-89fc-4a6f-8fa0-d4ddf12121e2")
+	)
+	(junction
+		(at 160.02 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c56e2341-41c2-4fb5-a64d-ed7dc9acd06d")
+	)
+	(junction
+		(at 208.28 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c59c6e39-7777-445c-861b-9f92b0d84d9d")
+	)
+	(junction
+		(at 256.54 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daaacb92-439d-4292-bf18-540b6290ca89")
+	)
+	(junction
+		(at 208.28 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "def3b784-cf36-4e1c-b007-3ca3224c87a8")
+	)
+	(junction
+		(at 281.94 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec82262c-1976-421a-aa29-b308639042a7")
+	)
+	(junction
+		(at 160.02 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed64f864-72eb-4120-b8bb-e1e9494a5594")
+	)
+	(wire
+		(pts
+			(xy 160.02 193.04) (xy 185.42 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1534a5-5dd4-49d2-8c57-f27a69a0d091")
+	)
+	(wire
+		(pts
+			(xy 191.77 177.8) (xy 185.42 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ca05ac-9ad0-45ea-9907-651a194e7f90")
+	)
+	(wire
+		(pts
+			(xy 281.94 177.8) (xy 271.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1983121d-d9d9-4fc4-8290-4ed9866eaf2d")
+	)
+	(wire
+		(pts
+			(xy 109.22 139.7) (xy 134.62 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3b136a-1fbe-4b2d-8940-bcf06840f067")
+	)
+	(wire
+		(pts
+			(xy 299.72 193.04) (xy 281.94 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1c390c-f8cf-4ea8-a4c8-bc3afd49e2ce")
+	)
+	(wire
+		(pts
+			(xy 83.82 177.8) (xy 48.26 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dccf24e-5efc-438e-b2bd-0109a4ac4f19")
+	)
+	(wire
+		(pts
+			(xy 185.42 177.8) (xy 177.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e185ed9-7fe0-4342-bfa3-4cfbd1aebe76")
+	)
+	(wire
+		(pts
+			(xy 48.26 139.7) (xy 76.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21631450-8aa7-4915-b0e2-dbc65b7e9c79")
+	)
+	(wire
+		(pts
+			(xy 231.14 193.04) (xy 256.54 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217da41f-032d-4564-b08a-d54df852dde8")
+	)
+	(wire
+		(pts
+			(xy 307.34 152.4) (xy 294.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e5116a-7627-4d77-926b-745481fdf647")
+	)
+	(wire
+		(pts
+			(xy 304.8 139.7) (xy 327.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a080e6-6dba-4264-ac10-94747e84fb6b")
+	)
+	(wire
+		(pts
+			(xy 134.62 139.7) (xy 160.02 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da4f6f8-6e04-40be-8365-a8bde407fb4a")
+	)
+	(wire
+		(pts
+			(xy 166.37 177.8) (xy 160.02 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e50ddb9-b1e7-4b7e-8639-81d4c9dad0f8")
+	)
+	(wire
+		(pts
+			(xy 234.95 177.8) (xy 231.14 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc62a27-83d7-4741-810f-1f59da89d5f0")
+	)
+	(wire
+		(pts
+			(xy 271.78 152.4) (xy 269.24 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3169414b-f564-41c4-99fa-570430d47dc0")
+	)
+	(wire
+		(pts
+			(xy 185.42 193.04) (xy 208.28 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34baf002-7b14-481e-a7d6-af768cd39978")
+	)
+	(wire
+		(pts
+			(xy 109.22 177.8) (xy 100.33 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e66fb1-0ae5-43ab-a2b8-cff7ee467305")
+	)
+	(wire
+		(pts
+			(xy 233.68 139.7) (xy 259.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c0c2f5-172c-4751-bb02-1840de0c11b4")
+	)
+	(wire
+		(pts
+			(xy 48.26 177.8) (xy 48.26 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4882c249-b050-4f8a-9035-cb5f0c6fd46e")
+	)
+	(wire
+		(pts
+			(xy 76.2 139.7) (xy 109.22 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52391fba-0b29-4916-916c-c61980624c32")
+	)
+	(wire
+		(pts
+			(xy 307.34 152.4) (xy 322.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af26d12-4503-4eb2-954d-86f644f08c59")
+	)
+	(wire
+		(pts
+			(xy 260.35 177.8) (xy 256.54 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662ce522-ec74-4b2e-9def-1784e3ed9a70")
+	)
+	(wire
+		(pts
+			(xy 109.22 193.04) (xy 134.62 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6758b5e9-2f54-40cc-b2f9-4b95ddd0d177")
+	)
+	(wire
+		(pts
+			(xy 283.21 177.8) (xy 281.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecfd9d4-053c-4827-8c94-63f0f823e27a")
+	)
+	(wire
+		(pts
+			(xy 259.08 139.7) (xy 281.94 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775f1c0b-fae8-4b5f-9e9c-174e239207d8")
+	)
+	(wire
+		(pts
+			(xy 208.28 177.8) (xy 203.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8b351d-5356-472e-b1b0-c474e0adb9ad")
+	)
+	(wire
+		(pts
+			(xy 134.62 193.04) (xy 160.02 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ffa80a-ccc0-4fe9-9f81-261ac583a5d4")
+	)
+	(wire
+		(pts
+			(xy 83.82 193.04) (xy 109.22 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8426cd0b-4699-4674-8b5b-f35b438784e3")
+	)
+	(wire
+		(pts
+			(xy 256.54 177.8) (xy 246.38 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845884f8-d8ac-46b7-b487-b715272e3ed7")
+	)
+	(wire
+		(pts
+			(xy 88.9 177.8) (xy 83.82 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861e0ffd-88c4-49cf-9831-4aa31501deae")
+	)
+	(wire
+		(pts
+			(xy 327.66 165.1) (xy 294.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8698765b-bf3f-4558-b83f-cd7701db2d08")
+	)
+	(wire
+		(pts
+			(xy 294.64 165.1) (xy 281.94 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8780b010-ff82-4ffa-a826-cf3110149f28")
+	)
+	(wire
+		(pts
+			(xy 170.18 152.4) (xy 172.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cae6ce-071d-4cf3-a59e-c541fa672847")
+	)
+	(wire
+		(pts
+			(xy 142.24 177.8) (xy 134.62 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7babe9-3789-44ef-b609-f04449802614")
+	)
+	(wire
+		(pts
+			(xy 213.36 177.8) (xy 208.28 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc9b900-3b41-4e32-ba1a-c66e54b2b0cc")
+	)
+	(wire
+		(pts
+			(xy 114.3 177.8) (xy 109.22 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29110ab-1eba-41be-80ff-43014c01fe3e")
+	)
+	(wire
+		(pts
+			(xy 208.28 139.7) (xy 233.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a320cfe2-cdba-474b-accd-d4916d458d62")
+	)
+	(wire
+		(pts
+			(xy 327.66 170.18) (xy 322.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac613af8-7cf9-4c10-aa8f-b3915b4d4823")
+	)
+	(wire
+		(pts
+			(xy 134.62 177.8) (xy 125.73 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c7ecb4-c6b5-434b-930b-225ce134ed07")
+	)
+	(wire
+		(pts
+			(xy 256.54 193.04) (xy 281.94 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad370ef-2014-4e71-8440-91cf137bf9c0")
+	)
+	(wire
+		(pts
+			(xy 182.88 139.7) (xy 208.28 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1048c6b-63ae-4c5c-8faf-e5993397c562")
+	)
+	(wire
+		(pts
+			(xy 231.14 177.8) (xy 224.79 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63a8e0a-97e0-42af-9dbc-ae95548e658c")
+	)
+	(wire
+		(pts
+			(xy 160.02 177.8) (xy 153.67 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69f5c7e-68f1-482d-8fc5-2e389cbacb41")
+	)
+	(wire
+		(pts
+			(xy 327.66 167.64) (xy 322.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27d9aff-f0c4-4f30-ae02-49c6cfb4ce50")
+	)
+	(wire
+		(pts
+			(xy 322.58 170.18) (xy 299.72 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b7eafa-3f89-4733-a6f4-74ba0e12a9ac")
+	)
+	(wire
+		(pts
+			(xy 294.64 177.8) (xy 294.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0ed993-d788-4ca5-b27c-59554ecdc3ec")
+	)
+	(wire
+		(pts
+			(xy 160.02 139.7) (xy 182.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5709b2e-ab18-4c1a-93a5-4c8be915e1ac")
+	)
+	(wire
+		(pts
+			(xy 208.28 193.04) (xy 231.14 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f728de81-786b-4737-8273-8a32249a53c7")
+	)
+	(wire
+		(pts
+			(xy 88.9 152.4) (xy 96.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda44353-a340-44c2-b256-853d1620df6f")
+	)
+	(wire
+		(pts
+			(xy 281.94 139.7) (xy 304.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3ff705-126f-404f-8c48-1c6bae7011bc")
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 172.72 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "096eff8c-b478-4589-95e0-cec5bfaac1be")
+		(property "Reference" "R4"
+			(at 168.656 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 168.656 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 172.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 168.656 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 168.656 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "4dbfda7d-3dac-4f04-a73b-98d0761c903b")
+		)
+		(pin "1"
+			(uuid "1a816f43-df9e-4cca-a974-e66e5f4c7b29")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 109.22 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a5f41c3-73ab-4592-b1da-0fea3f0ef278")
+		(property "Reference" "NEO8"
+			(at 122.428 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 122.428 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "OUT"
+			(uuid "76083b50-c1dd-4c7e-9b9f-d2806a2fae20")
+		)
+		(pin "5V"
+			(uuid "5b9b191a-77af-4ea1-898e-a3cc1125fae8")
+		)
+		(pin "GND"
+			(uuid "6c342557-b197-4c9c-812c-cfe2624d3189")
+		)
+		(pin "IN"
+			(uuid "9bf46c41-80dd-4d2e-b529-29a18c497df8")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 208.28 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "115f0dff-3b84-49c1-964c-f90f23b30a2c")
+		(property "Reference" "#PWR?"
+			(at 208.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "89ab1d07-e423-419f-9ac0-1a022801b973")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 289.56 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17a1aa65-be56-4957-8a4e-c50b20dbd737")
+		(property "Reference" "R9"
+			(at 285.496 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 285.496 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 289.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 289.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 285.496 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 285.496 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "1c9a5801-5565-4e5b-83a1-309ed2dc0b1d")
+		)
+		(pin "2"
+			(uuid "6498ec65-d402-4c47-8ce6-787973cd5102")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 256.54 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2308460d-b4d9-435f-b6e5-bc4ef0baaeb3")
+		(property "Reference" "SW8"
+			(at 257.302 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 257.302 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 256.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 256.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 254.381 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 254.381 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 254.381 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 254.381 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 254.381 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2370d669-1b9a-4af5-918c-d5a04869a3c1")
+		)
+		(pin "1"
+			(uuid "0647b86a-2d94-4411-9bd8-ec1e05810097")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 134.62 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d9e2439-c1d8-4d4f-9b04-0f8a8a8acf33")
+		(property "Reference" "SW3"
+			(at 135.382 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 132.08 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 134.62 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 134.62 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 132.461 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 132.461 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 132.461 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 132.461 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 132.461 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02ec0d51-28c2-448c-b01a-201dad8cc6ea")
+		)
+		(pin "1"
+			(uuid "8deb0b49-b036-4a72-aafc-62fba9a05101")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 233.68 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e02013b-b595-432b-829d-79e36041ede6")
+		(property "Reference" "NEO3"
+			(at 246.888 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 246.888 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "OUT"
+			(uuid "0d918a12-6328-4fa2-85c5-f567cf3a3d40")
+		)
+		(pin "GND"
+			(uuid "71b91bcf-e9e6-4d9e-8c9a-a9a93acbb94c")
+		)
+		(pin "IN"
+			(uuid "2ac521c2-d746-4a34-a6ac-8bd517cc5e72")
+		)
+		(pin "5V"
+			(uuid "39f510a1-3053-45f1-adef-6d58fb223ef8")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 208.28 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cec79bc-ed09-4e2c-9e4c-b5cb050d1e52")
+		(property "Reference" "NEO4"
+			(at 221.488 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 221.488 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "IN"
+			(uuid "4dacc076-0832-4eb6-9b3b-e122846031e2")
+		)
+		(pin "GND"
+			(uuid "eeaaadca-a57e-4ac2-991f-96ad9fadfd9c")
+		)
+		(pin "OUT"
+			(uuid "c05bf411-7dab-477a-8f04-b34a1484d851")
+		)
+		(pin "5V"
+			(uuid "5f6cf64b-61c9-4bce-a6c2-347df48eb376")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 259.08 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4edcccc5-f516-40b9-a97c-1dc202c540be")
+		(property "Reference" "#PWR?"
+			(at 259.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1d29a7ad-f875-4db4-babd-4f1886a3002e")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_TSW-104-07-G-S_SchlibLafe.SchLib")
+		(at 337.82 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57ecccb5-f45a-4424-8053-e712325ce6e2")
+		(property "Reference" "J1"
+			(at 332.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TSW-104-07-G-S"
+			(at 332.74 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SAMTEC_TSW-104-07-G-S"
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "<a href=\"https://pricing.snapeda.com/parts/TSW-104-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>"
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "altium_native_batch"
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "04"
+			(uuid "b5ecc75f-763c-4893-8f27-80e98046d0b7")
+		)
+		(pin "02"
+			(uuid "94826632-57be-4f6a-a659-f6a61c1e0965")
+		)
+		(pin "03"
+			(uuid "9dee4a95-7cb0-45c0-b413-7eb36d4676e9")
+		)
+		(pin "01"
+			(uuid "5205cec3-6aed-4bcb-b2a9-17381506a96a")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 134.62 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5aa43e8e-f21d-41bb-8d88-68b0dd16b6b7")
+		(property "Reference" "NEO7"
+			(at 147.828 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 147.828 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 134.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "IN"
+			(uuid "6050a1c4-ef54-44a0-8c09-8816ea9c04a5")
+		)
+		(pin "GND"
+			(uuid "88338a65-76c0-4cd4-8957-1936d9c9a4dc")
+		)
+		(pin "OUT"
+			(uuid "0b3dd204-e353-42ec-909a-a33d349f4a64")
+		)
+		(pin "5V"
+			(uuid "51734cb6-d406-47e3-8f6c-afb959d49ecc")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 160.02 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62769d8c-c1ea-42e5-97bd-34f671389713")
+		(property "Reference" "SW4"
+			(at 160.782 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 160.782 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 157.861 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 157.861 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 157.861 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 157.861 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 157.861 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8145006-4e49-40c1-a8de-8da64caa99b9")
+		)
+		(pin "1"
+			(uuid "c0fc70e4-d1bd-4690-98ed-71c2b456fce0")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 208.28 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6608949a-7cdc-49ab-8510-7501b1cdbe7e")
+		(property "Reference" "SW6"
+			(at 209.042 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 209.042 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 208.28 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 208.28 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 206.121 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 206.121 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 206.121 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 206.121 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 206.121 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "636a0ac7-644b-42cf-995b-d1ffc2dd5e08")
+		)
+		(pin "2"
+			(uuid "3625f7e8-e93f-4c2f-b53c-3521b97c2c15")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 83.82 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "669145bd-7513-4bd4-ad46-e15d99e1f67a")
+		(property "Reference" "SW1"
+			(at 84.582 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 84.582 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 81.661 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 81.661 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 81.661 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 81.661 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 81.661 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "476bf43b-8083-4e32-951d-de5b51c63ff0")
+		)
+		(pin "2"
+			(uuid "0dad9415-422d-4c89-9d32-f9898d8bf1af")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 231.14 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aaeedcb-7ad4-4878-a76f-f935f60b97cc")
+		(property "Reference" "SW7"
+			(at 231.902 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 231.902 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 231.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 231.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 228.981 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 228.981 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 228.981 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 228.981 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 228.981 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18464211-da3e-4d9a-a32b-363f5d1871d2")
+		)
+		(pin "2"
+			(uuid "62b0a9a0-be68-4903-9fb5-b81f2cab56e4")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 281.94 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "715ee4a3-3e73-4798-81e3-a9a4777ec13f")
+		(property "Reference" "SW9"
+			(at 282.702 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 282.702 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 281.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 281.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 279.781 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 279.781 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 279.781 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 279.781 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 279.781 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5fca998-f86c-4cf2-8212-1913a7989000")
+		)
+		(pin "1"
+			(uuid "4d30f6fa-0669-4bcc-84dc-0e683b63d668")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 233.68 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8239f397-f5f5-4ec1-a641-98d5c6ac312a")
+		(property "Reference" "#PWR?"
+			(at 233.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0c71bc47-7784-495d-8789-f224e1d4f633")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 76.2 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "829b730e-2230-405e-b1ef-a7deefaa7be8")
+		(property "Reference" "NEO9"
+			(at 89.408 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 89.408 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "OUT"
+			(uuid "addb6bdc-5668-4465-8323-b463098a86ea")
+		)
+		(pin "5V"
+			(uuid "82482068-987c-4c24-9e2c-9d4a8930c963")
+		)
+		(pin "GND"
+			(uuid "c15cd935-741e-4d9b-bec8-d9ba84fd7ca0")
+		)
+		(pin "IN"
+			(uuid "98cb09c7-bbcd-4d2c-a220-d302a9dcc361")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 182.88 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83ce8b9b-fcd4-4adc-8924-80a67188909c")
+		(property "Reference" "NEO5"
+			(at 196.088 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 196.088 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 182.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "ef9b164f-8b3b-4cc4-a2fb-2c337b311db0")
+		)
+		(pin "OUT"
+			(uuid "d5c51147-bfdd-43bd-9016-cbd274cfb6cb")
+		)
+		(pin "5V"
+			(uuid "fa8a3e63-3f7f-498d-b422-fd4b77ddb2a1")
+		)
+		(pin "IN"
+			(uuid "329ed850-7878-4ca1-bd43-250f7d18000c")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 219.71 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85c9039d-81d6-4f26-96a8-fb20bfb605cd")
+		(property "Reference" "R6"
+			(at 215.646 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 215.646 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 219.71 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 215.646 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 215.646 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "46c66a66-e5bd-47a8-861d-207893ba0210")
+		)
+		(pin "1"
+			(uuid "82973188-000a-4e32-94fb-65c1285557e3")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 198.12 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "875fa7c8-847b-430d-9605-5da5942c4ded")
+		(property "Reference" "R5"
+			(at 194.056 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 194.056 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 198.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 194.056 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 194.056 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "c83cd920-06bd-448d-8693-3e67fb0b9096")
+		)
+		(pin "1"
+			(uuid "aeafde2e-4359-4474-8ff1-23312b5d560c")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 160.02 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cf1fc3f-f8bc-488c-89f5-c6865200dfb8")
+		(property "Reference" "NEO6"
+			(at 173.228 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 173.228 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "OUT"
+			(uuid "0aea26d5-b148-4169-afa8-34511d9c5c2b")
+		)
+		(pin "GND"
+			(uuid "5c797d7c-581c-4e72-aa6b-5311f015e0dd")
+		)
+		(pin "5V"
+			(uuid "2272ff5b-c1ec-4b9f-abd9-7111d63e401b")
+		)
+		(pin "IN"
+			(uuid "d578cf0f-bbf2-4e13-add1-4fd96095c786")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 160.02 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "915bcb1b-28bc-4551-a1f9-8e4b04a00da1")
+		(property "Reference" "#PWR?"
+			(at 160.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bac61d1d-187a-46a5-ad91-bc404fd6392e")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 120.65 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9925aa93-a108-40e5-9676-7f45342e9a0a")
+		(property "Reference" "R2"
+			(at 116.586 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 116.586 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 120.65 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 116.586 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 116.586 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "eed15d97-b16b-4e93-91e1-d6d7aba688c7")
+		)
+		(pin "2"
+			(uuid "996bc988-73e9-4f76-9642-1a411eaa9116")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 241.3 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa19160e-47f6-4935-a1c9-fc62c1cbb0e4")
+		(property "Reference" "R7"
+			(at 237.236 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 237.236 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 237.236 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 237.236 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a098bd07-bad3-4bb0-bf8c-e60236c79f26")
+		)
+		(pin "2"
+			(uuid "ec61290a-4a0f-4e32-8af0-60ae494f1af6")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 281.94 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa6d12d0-ead2-4e0b-a38d-def6c05890cf")
+		(property "Reference" "#PWR?"
+			(at 281.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "99403694-b11b-413b-b343-70516a62549c")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 182.88 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b276268c-2790-434f-b3f3-8f443eed4ead")
+		(property "Reference" "#PWR?"
+			(at 182.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2978bafd-06bf-4689-b27e-2e14f09bc28e")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 109.22 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb7ae5d7-c2d7-4a7c-b3ff-91583cf9a9e7")
+		(property "Reference" "#PWR?"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4ee9b76c-52ef-4829-98d0-eba0860523f4")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 109.22 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf14c2e3-d508-4876-b3ca-ca141c6d15c8")
+		(property "Reference" "SW2"
+			(at 109.982 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 109.982 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 107.061 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 107.061 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 107.061 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 107.061 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 107.061 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "310149a5-ec8e-4208-a4ae-135b916b424e")
+		)
+		(pin "1"
+			(uuid "826a92d6-b922-4f23-856b-d927619dc436")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_1_TL59AF100Q_SchlibLafe.SchLib")
+		(at 185.42 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d04aca5f-7cd2-4b41-95a4-3436699aa715")
+		(property "Reference" "SW5"
+			(at 186.182 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TL59AF100Q"
+			(at 186.182 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SW_TL59AF100Q_EWI"
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Description Available"
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 183.261 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "E-Switch"
+			(at 183.261 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TL59AF100Q"
+			(at 183.261 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REFDES" "RefDes"
+			(at 183.261 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "DEV"
+			(at 183.261 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df1ab987-4ec8-4b14-a7da-61e0540c4d36")
+		)
+		(pin "1"
+			(uuid "1c97879b-7eb4-418e-b782-451d5f22d2bd")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 259.08 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2117b6b-52ea-4d66-8160-c6c4e7c18c37")
+		(property "Reference" "NEO2"
+			(at 272.288 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 272.288 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5V"
+			(uuid "03add64b-b6e7-4d3f-adcb-927a6013aeed")
+		)
+		(pin "GND"
+			(uuid "34fa7d53-24e3-43ae-b5db-cc51548752a9")
+		)
+		(pin "OUT"
+			(uuid "a8a405cd-6adf-4f48-9c84-08f8c47822e7")
+		)
+		(pin "IN"
+			(uuid "87e16d75-2cd8-436f-9366-33ceddb16bca")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 95.25 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2af90f9-9265-4723-b5af-7ba2385346f6")
+		(property "Reference" "R1"
+			(at 91.186 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 91.186 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 91.186 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 91.186 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "b091fe26-bde4-49da-90b0-854b0b59b55d")
+		)
+		(pin "1"
+			(uuid "02387827-7314-4f92-bea3-ac7e04802148")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 148.59 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dce518ea-9f80-41cc-856d-6a8c0572bcb8")
+		(property "Reference" "R3"
+			(at 144.526 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 144.526 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 148.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 144.526 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 144.526 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "a75b8cc9-adc4-4c79-be47-72e47087093a")
+		)
+		(pin "1"
+			(uuid "36adde24-1a88-40fb-be1f-96b3c3d37bf3")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_adafruit-1559-neopixel-flora_SchlibLafe.SchLib")
+		(at 281.94 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de101207-7ebd-4cd4-bb90-3aedc03e51e4")
+		(property "Reference" "NEO1"
+			(at 295.148 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "adafruit-1559-neopixel-flora"
+			(at 295.148 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "adafruit-1559-neopixel-flora"
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "IN"
+			(uuid "19691673-72dd-406f-8a25-e414fc235a7b")
+		)
+		(pin "5V"
+			(uuid "c3af8873-6f7f-4034-b6dc-545a45a61220")
+		)
+		(pin "GND"
+			(uuid "2ea9a8aa-bb03-4818-bfbf-f0d8c64f9841")
+		)
+		(pin "OUT"
+			(uuid "06764186-f0ba-45f5-b042-6a6d4d02f64c")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "NEO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SchlibLafe:root_0_Resistor_SchlibLafe.SchLib")
+		(at 266.7 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e16c46b5-0c83-4036-b6ee-b83220a7aa97")
+		(property "Reference" "R8"
+			(at 262.636 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 262.636 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "thruhole resistor"
+			(at 266.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 262.636 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "R" ""
+			(at 262.636 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "4a57af6c-c5a0-4204-ad04-a26a108fbbc4")
+		)
+		(pin "1"
+			(uuid "4d23a1db-6fad-4e91-85df-7d0f3e6ed11b")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 76.2 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f09d89d6-34a3-4cf0-96f1-0cd317291b5c")
+		(property "Reference" "#PWR?"
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8042bcf4-32c7-4566-933e-ced3927bd383")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9button-9neopixel-altium-import:GND_POWER_GROUND")
+		(at 134.62 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdae1383-b3ee-4dca-9686-3fa41054b1b3")
+		(property "Reference" "#PWR?"
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "126685fb-43e6-49b3-934a-6384bec90612")
+		)
+		(instances
+			(project ""
+				(path "/03844d28-c06b-4e9f-99d1-03eed04cafea"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

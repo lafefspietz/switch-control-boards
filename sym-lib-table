@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "6button-6eopixel-altium-import")(type "KiCad")(uri "${KIPRJMOD}/6button-6eopixel-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "6button-6neopixel-altium-import")(type "KiCad")(uri "${KIPRJMOD}/6button-6neopixel-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "9button-9neopixel-altium-import")(type "KiCad")(uri "${KIPRJMOD}/9button-9neopixel-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "arduino-to-headers-shield-altium-import")(type "KiCad")(uri "${KIPRJMOD}/arduino-to-headers-shield-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "DB25-relay-HV-control-altium-import")(type "KiCad")(uri "${KIPRJMOD}/DB25-relay-HV-control-altium-import.kicad_sym")(options "")(descr ""))
+)
